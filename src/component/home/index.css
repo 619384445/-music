@@ -1,0 +1,154 @@
+body{
+    background: #fcfcfd
+}
+.home{
+    padding-top: 3.2rem;
+}
+.top{
+    position: fixed;
+    top:0;
+    width: 100%;
+}
+.titel{
+    background:#d43c33;
+    display: flex;
+    justify-content:space-between;
+    width:100%;
+    height:2rem;
+    align-items: center;
+    padding:0  .3rem;
+    box-sizing: border-box;
+}
+.logo>img{
+    height: 1.5rem;
+}
+.t-left{
+    width: 3rem;
+    height: 1rem;
+    border: 1px solid #fff;
+    border-radius: 1rem;
+    text-align: center;
+    line-height: 1rem;
+    color: #fff;
+    font-size: 16px;
+}
+.nav{
+    background:#fff;
+    display: flex;
+    justify-content:space-around;
+    width:100%;
+    height:1.2rem;
+    align-items: center;
+    font-size: 15px;
+    border-bottom: 1px solid #f5f5f5;
+}
+.nav>li{
+    height: 100%;
+}
+.nav>li>a{
+    height: 100%;
+    display: block;
+    box-sizing: border-box;
+    line-height: 1.2rem;
+}
+.recommend{
+    display: flex;
+    justify-content:space-between;
+    width:100%;
+    height:max-content;
+    flex-wrap: wrap;
+    font-size: 13px;
+}
+.recommend>div{
+    width:32.5%;
+    height:max-content;
+}
+.recommend>div>img{
+    width: 100%;
+    height: 3rem;
+    display: block;
+}
+.Rtitle{
+    font-size: 16px;
+    height: 1rem;
+    line-height: 1rem;
+    border-left: #d43c33 solid 2px;
+    padding-left: 0.2rem
+}
+
+.music-list>li>span{
+    font-size: 14px;
+    color:#888;
+    width: 70%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: inline-block;
+}
+.foot{
+    background:#d43c33;
+    text-align:center;
+    padding: 1rem;
+}
+.foot>p{
+    font-size: 10px;
+}
+.foot img{
+    height: 2rem;
+}
+.foot-btn{
+    height: 1rem;
+    border: 2px solid #fff;
+    border-radius: 1rem;
+    color:#fff;  
+    line-height: 1rem;
+}
+
+
+.search-box{
+    height: 1.2rem;
+    border-bottom: 1px solid #888;
+    padding: 0.2rem 0.4rem;
+    line-height: 1.2rem;
+}
+.serach{
+    width: 100%;
+    height: 0.8rem;
+    border: none;
+    border-radius: 0.5rem;
+    background: #ebecec;
+    color: #333;
+    padding: 0 0.4rem;
+    box-sizing: border-box;
+}
+
+.active{
+    color:#dd001b;
+    border-bottom:2px solid #dd001b;
+}
+
+.regeImg>img{
+width: 100%;
+height: 5rem;
+}
+.music-list{
+    width: 100%;
+    height: max-content;
+}
+.music-list>li{
+    border-bottom: 1px solid #f5f5f5;
+    background: #fff;
+    background-image: url('http://s3.music.126.net/mobile-new/img/index_icon_2x.png?5207a28c3767992ca4bb6d4887c74880');
+    background-position: 249px 17px;
+    background-repeat: no-repeat;
+    background-size: 65%;
+    height: max-content;
+    font-size: 16px;
+    padding:  0.2rem;
+}
+.music-list>li>h2{
+    width: 70%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}

@@ -1,0 +1,38 @@
+.search-hot{
+    display: flex;
+    padding: 0.2rem;
+    flex-wrap: wrap;
+
+}
+.search-hot>dt{
+    width: 100%;
+    padding: 0.3rem;
+}
+.search-hot>dd{
+    padding: 0.1rem 0.3rem;
+    border:1px solid #ebecec;
+    font-size: 14px;
+    float: left;
+    border-radius: 0.5rem;
+    margin-right: 0.3rem;
+    margin-bottom: 0.3rem;
+}
+.search-list{
+    overflow: hidden;
+}
+.search-list>dt{
+    font-size: 18px;
+    height: 1.5rem;
+    border-bottom: 1px solid #ebecec;
+    line-height: 1.5rem;
+    padding-left: 0.3rem;
+
+}
+.search-list>dd{
+    width: 100%;
+    height: 1rem;
+    border-bottom: 1px solid #ebecec;
+    line-height: 1rem;
+    font-size: 14px;
+    padding-left: 0.3rem;
+}
